@@ -1,0 +1,37 @@
+.card {
+    height:200px;
+    overflow: hidden;
+}
+
+.card-title{
+    position:relative;
+    bottom:140px;
+    left: 230px;
+}
+
+.card-img{
+    position: relative;
+    z-index: 1;
+}
+
+.card-subtitle {
+    position:relative;
+    bottom: 135px;
+    left: 210px;
+}
+
+.card-text {
+    width:50%;
+    position:relative;
+    top: 10px;
+    left: 160px;
+    overflow-y: hidden;
+}
+
+.btn {
+    position:relative;
+    top: 90px;
+    right: 150px;
+    background-color: aquamarine;
+    border-radius:15%;
+}

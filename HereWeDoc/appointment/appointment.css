@@ -1,0 +1,43 @@
+#welcome{
+  box-sizing: border-box;
+  height: 150px;
+  padding: 25px;
+  font-family: 'Bigelow Rules', cursive;
+  font-weight: 400px;
+  font-size: 70px;
+  text-align: center;
+  color: black;
+  position: relative;
+	display: block;
+	background-color: aquamarine;
+  animation: heading;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+  0%{top: -50px;}
+  100%{top: 83px}
+}
+
+@media only screen and (max-width: 700px) {
+  #welcome{
+    box-sizing: border-box;
+    height: 170px;
+    padding: 25px;
+    font-family: 'Alatsi', sans-serif;
+    font-weight: 400px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top:83px;
+  	display: block;
+  	background-color: #6603AE;
+  }
+  .responsive{
+    padding: 0 10px
+    width:50%;
+  }
+
+}
